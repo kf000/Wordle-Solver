@@ -6,4 +6,4 @@ By modifying ENGLISH_WORDS_PATH, you can chose between two sets of english words
 scrabble_words_list.txt is the most comprehensive set but takes longer to run\
 reduced_words_list.txt is unfortuanetely missing some common names\
 You need to import "multiprocessing" package to run the script\
-For performance purpose, the script will run simulatenously on the number of CPU cores specified (NB_CPUS)\
+For performance purpose, the script will run simulatenously on the number of CPU cores specified (NB_CPUS)
