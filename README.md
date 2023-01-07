@@ -7,4 +7,4 @@ scrabble_words_list.txt is the most comprehensive list, the script will take lon
 reduced_words_list.txt is a shorter list (unfortunately missing a few common names), computation will be faster.\
 If results are not satisfactory with the shorter list, you can re-run the script with the comprehensive one.
 You need to import "multiprocessing" package to run the script.\
-For performance purpose, the script will run simultaneously on the number of CPU cores specified (NB_CPUS)
+For performance purpose, the script will run simultaneously on the number of CPU cores specified (NB_CPUS).
