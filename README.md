@@ -8,5 +8,5 @@ shorter_words_list.txt is a shorter list (unfortunately missing a few common nam
 If results are not satisfactory with the shorter list, you can re-run the script with the comprehensive one.\
 You need to import "multiprocessing" package to run the script.\
 For performance purpose, the script will run simultaneously on the number of CPU cores specified (NB_CPUS).\
-The code will run on a empty attempt list but will take hours to provide you the optimal opening word of any empty grid.\
-Suggest to run the code only after playing your opening word.
+The code will run on empty attempt/color lists but will take hours to provide you the optimal opening word of any empty grid.\
+Suggest to run the code only after playing and inputting your opening word.
