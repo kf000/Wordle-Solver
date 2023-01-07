@@ -1,7 +1,7 @@
 # Wordle-Solver
 Python script to find all possible solutions and next optimal word to play.\
 After inputting your wordle grid details, the script will display the above information.\
-The color convention is g for green, y for yellow, x for grey.\
+The color convention is g for green, y for yellow and x for grey.\
 By modifying ENGLISH_WORDS_PATH, you can choose between two sets of english words (scrabble_words_list.txt or reduced_words_list.txt).\
 scrabble_words_list.txt is the most comprehensive list, the script will take longer to run.\
 reduced_words_list.txt is a shorter list (unfortunately missing a few common names), computation will be faster.\
