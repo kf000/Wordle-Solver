@@ -22,12 +22,19 @@ _word_list.txt is a list of english words, unfortunately missing a few common on
 
 _comprehensive_word_list.txt is a more comprehensive list, the script will take longer to run._
 
+```sh
+ENGLISH_WORDS_FILE = r"word_list.txt"
+```
+
 * NB_CPUS
 
 For performance purpose, the script will run simultaneously on several CPU cores specified.
 
 The number of CPU cores use to run the program is defined with the global variable NB_CPUS.
 
+```sh
+NB_CPUS = 16
+```
 * attempts_list and colors_list 
 
 Simply input your wordle grid details using these two variable.
