@@ -67,7 +67,7 @@ steak
 -----
 
 -----
-computing optimal attempt(s):
+computing optimal attempt(s)...
 -----
 
 -----
@@ -138,4 +138,4 @@ total computation time:
 Process finished with exit code 0
 ```
 
-_Please note that on your terminal, the grid colors should be displayed._
+_Please note that on your terminal, the Wordle grid colors should be displayed._
