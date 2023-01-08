@@ -37,7 +37,7 @@ NB_CPUS = 16
 ```
 * attempts_list and colors_list 
 
-Simply input your wordle grid details using these two variables.
+Simply input your wordle grid details using these two lists.
 
 ```sh
  attempts_list = ['train', 'cleat']
