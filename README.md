@@ -43,6 +43,11 @@ Please note that the code will take a long time (potentially hours) to run on em
 
 I would recommend you to run the code only after playing (and inputting) your opening word.
 
+## How does it work
+
+The next optimal word to play is the one that will minimize the number of remaining potential solutions at the next attempt.
+
+The next optimal word to play is chosen among all english words, not only among the potential solutions. 
 
 ## Output
 
@@ -134,9 +139,3 @@ Process finished with exit code 0
 ```
 
 _Please note that on your terminal, the grid colors should be displayed._
-
-## How does it work
-
-The next optimal word to play is the one that will minimize the number of remaining potential solutions at the next attempt.
-
-The next optimal word to play is chosen among all english words, not only among the potential solutions. 
