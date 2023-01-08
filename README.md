@@ -1,12 +1,142 @@
 # Wordle-Solver
-Python script to find all possible solutions and next optimal word to play.\
-After inputting your wordle grid details (by modifying attempts and colors lists), the script will output the above information.\
-The color convention is g for green, y for yellow and x for grey.\
-By modifying ENGLISH_WORDS_PATH, you can choose between two sets of english words (comprehensive_words_list.txt or shorter_words_list.txt).\
-comprehensive_words_list.txt is the most comprehensive list, the script will take longer to run.\
-shorter_words_list.txt is a shorter list (unfortunately missing a few common names), computation will be faster.\
-If results are not satisfactory with the shorter list, you can re-run the script with the comprehensive one.\
-You need to import "multiprocessing" package to run the script.\
-For performance purpose, the script will run simultaneously on the number of CPU cores specified (NB_CPUS).\
-The code will take hours to run on empty attempts/colors lists but it will provide you the optimal opening word of any empty grid.\
-Suggest to run the code only after playing (and inputting) your opening word.
+
+## Description
+
+A Python script to find the next optimal word to play + all the potential solutions of your wordle grid.
+
+## Installation
+
+Download the .py and the two .txt files in a single directory.
+
+_You would need to import "multiprocessing" and "timeit" python packages to run the script._
+
+## About the script
+
+* ENGLISH_WORDS_FILE
+
+By modifying this global variable (ENGLISH_WORDS_FILE), you can choose between two sets of english words (word_list.txt or comprehensive_word_list.txt).
+
+I would recommend you to start with word_list.txt, if results are not satisfactory, you can re-run the script with comprehensive_word_list.txt.
+
+_word_list.txt is a list of english words, unfortunately missing a few common ones, computation will be faster._
+
+_comprehensive_word_list.txt is a more comprehensive list, the script will take longer to run._
+
+* NB_CPUS
+
+For performance purpose, the script will run simultaneously on several CPU cores specified.
+
+The number of CPU cores use to run the program is defined with the global variable NB_CPUS.
+
+* attempts_list and colors_list 
+
+Simply input your wordle grid details using these two variable.
+
+```sh
+ attempts_list = ['raise', 'would']
+ colors_list = ['xxxxy', 'xyxyx']
+ ```
+
+_The color convention is g for green, y for yellow and x for grey._
+
+Please note that the code will take a long time (potentially hours) to run on empty attempts and colors lists. That being said, doing so, will provide you the optimal opening word of any Wordle grid.
+
+I would recommend you to run the code only after playing (and inputting) your opening word.
+
+
+## Output
+
+```sh
+
+-----
+display wordle grid:
+train
+cleat
+-----
+
+-----
+3 possible solution(s):
+steam
+stead
+steak
+-----
+
+-----
+computing optimal attempt(s):
+-----
+
+-----
+56 optimal attempt(s):
+moody
+mould
+admix
+moldy
+kodak
+dumpy
+smack
+amend
+modal
+dusky
+smoke
+milky
+demon
+kudzu
+odium
+drake
+demur
+murky
+medic
+monad
+knead
+media
+mound
+embed
+dream
+humid
+kombu
+model
+dummy
+midst
+datum
+idiom
+muddy
+smoky
+drank
+vodka
+smirk
+naked
+bedim
+dogma
+modem
+skimp
+musky
+madam
+drama
+drunk
+karma
+amide
+demit
+drink
+admit
+midge
+medal
+nomad
+degum
+timid
+-----
+
+-----
+total computation time:
+1.62s
+-----
+
+Process finished with exit code 0
+```
+
+_Please note that on your terminal, the grid colors should be displayed._
+
+## How does it work
+
+The next optimal word to play is the one that will minimize the number of remaining potential solutions at the next attempt.
+
+The next optimal word to play is chosen among all english words, not only among the potential solutions. 
