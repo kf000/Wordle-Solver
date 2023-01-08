@@ -28,7 +28,7 @@ ENGLISH_WORDS_FILE = r"word_list.txt"
 
 * NB_CPUS
 
-For performance purpose, the script will run simultaneously on several CPU cores specified.
+For performance purpose, the script will run simultaneously on several CPU cores.
 
 The number of CPU cores use to run the program is defined with the global variable NB_CPUS.
 
