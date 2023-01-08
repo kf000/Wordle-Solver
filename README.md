@@ -33,8 +33,8 @@ The number of CPU cores use to run the program is defined with the global variab
 Simply input your wordle grid details using these two variable.
 
 ```sh
- attempts_list = ['raise', 'would']
- colors_list = ['xxxxy', 'xyxyx']
+ attempts_list = ['train', 'cleat']
+ colors_list = ['yxyxx', 'xxggy']
  ```
 
 _The color convention is g for green, y for yellow and x for grey._
