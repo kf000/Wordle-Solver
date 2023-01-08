@@ -37,7 +37,7 @@ NB_CPUS = 16
 ```
 * attempts_list and colors_list 
 
-Simply input your wordle grid details using these two variable.
+Simply input your wordle grid details using these two variables.
 
 ```sh
  attempts_list = ['train', 'cleat']
@@ -52,7 +52,7 @@ I would recommend you to run the code only after playing (and inputting) your op
 
 ## How does it work
 
-The next optimal word to play is the one that will minimize the number of remaining potential solutions at the next attempt.
+The next optimal word to play is the one that will minimize the number of remaining potential solutions after playing it.
 
 The next optimal word to play is chosen among all english words, not only among the potential solutions. 
 
