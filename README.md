@@ -149,7 +149,7 @@ _Please note that on your terminal, the Wordle grid colors should be displayed._
 
 In this example (run with the previous section inputs), you may notice that the optimal next words are all the words containing at least 2 letters among d, k and m.
 
-Indeed, after playing one of these words, the number of remaining solutions will always be exactly 1 (given that the current remaining solutions are stead, steak and steam).
+Indeed, after playing one of these words, the number of remaining solutions will always be 1 (given that the current remaining solutions are stead, steak and steam).
 
 On the other hand, if you randomly play one of the current remaining solution (stead, steak or steam), you will have 1/3 chance to win (therefore reducing the number of remaining solutions to 0) and 2/3 chance to end up with exactly 2 remaining solutions after playing.
 
