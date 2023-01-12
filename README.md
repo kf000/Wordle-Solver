@@ -153,4 +153,4 @@ Indeed, after playing one of these words, the number of remaining solutions will
 
 On the other hand, if you randomly play one of the current remaining solution (stead, steak or steam), you will have 1/3 chance to win (therefore reducing the number of remaining solutions to 0) and 2/3 chance to end up with exactly 2 remaining solutions after playing.
 
-In average, you are therefore left with in average 4/3 remaining solutions after playing one of the 3 current remaining solutions (stead, steak or steam), which is not optimal.
+In average, you are therefore left with, in average, 4/3 remaining solutions after playing one of the 3 current remaining solutions (stead, steak or steam), which is not optimal.
