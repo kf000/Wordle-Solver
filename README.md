@@ -147,7 +147,7 @@ Process finished with exit code 0
 
 _Please note that on your terminal, the Wordle grid colors should be displayed._
 
-In this example (run with above inputs), you may notice that the optimal next words are all the words containing at least 2 letters among d, k and m.
+In this example (run with the previous section inputs), you may notice that the optimal next words are all the words containing at least 2 letters among d, k and m.
 
 Indeed, after playing one of these words, the number of remaining solutions will always be exactly 1 (given that the current remaining solutions are stead, steak and steam).
 
