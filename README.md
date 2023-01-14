@@ -151,4 +151,4 @@ In this example (run with the previous section inputs), you may notice that the 
 
 Indeed, after playing one of these words, the number of remaining solutions will always be 1 (given that the current remaining solutions are stead, steak and steam).
 
-On the other hand, if you randomly play one of the current remaining solution (stead, steak or steam), you will have 1/3 chance to win (therefore reducing the number of remaining solutions to 0) and 2/3 chance to end up with exactly 2 remaining solutions after playing. In average, you are therefore left with 4/3 remaining solutions, which is not optimal.
+On the other hand, if you randomly play one of the current remaining solution (stead, steak or steam), you will have 1/3 chance to win (therefore reducing the number of remaining solutions to 0) and 2/3 chance to end up with exactly 2 remaining solutions after playing. You will therefore be left with, in average, 4/3 remaining solutions, which is not optimal.
