@@ -16,8 +16,6 @@ _You would need to import "multiprocessing" and "timeit" python packages to run 
 
 By modifying this global variable (ENGLISH_WORDS_FILE), you can choose between two sets of english words (word_list.txt or comprehensive_word_list.txt).
 
-I would recommend you to start with word_list.txt, if results are not satisfactory, you can re-run the script with comprehensive_word_list.txt.
-
 _word_list.txt is a list of common english words (unfortunately missing a few ones)._
 
 _comprehensive_word_list.txt is a more comprehensive list._ 
@@ -27,6 +25,8 @@ With word_list.txt computation will be faster, but results will be less accurate
 With comprehensive_word_list.txt results will be spotless, but the script will take longer to run.
 
 Appoximately 46 times longer as the complexity of the algorithm is n^3 (n being the number of english words considered).
+
+I would recommend you to start with word_list.txt, if results are not satisfactory, you can re-run the script with comprehensive_word_list.txt.
 
 ```sh
 ENGLISH_WORDS_FILE = r"word_list.txt"
