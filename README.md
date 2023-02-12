@@ -18,9 +18,9 @@ By modifying this global variable (ENGLISH_WORDS_FILE), you can choose between t
 
 I would recommend you to start with word_list.txt, if results are not satisfactory, you can re-run the script with comprehensive_word_list.txt.
 
-_word_list.txt is a list of english words, unfortunately missing a few common ones, computation will be faster._
+_word_list.txt is a list of common english words (unfortunately missing a few ones), computation will be faster, but results will be less accurate, as some potential solutions may be missing._
 
-_comprehensive_word_list.txt is a more comprehensive list, the script will take longer to run._
+_comprehensive_word_list.txt is a more comprehensive list, results will be spotless, but the script will take longer to run, appoximately 46 times longer as the complexity of the algorithm is n^3 (n being the number of english words considered)._
 
 ```sh
 ENGLISH_WORDS_FILE = r"word_list.txt"
@@ -46,7 +46,7 @@ Simply input your wordle grid details using these two lists.
 
 _The color convention is g for green, y for yellow and x for grey._
 
-Please note that the code will take a long time (potentially hours) to run on empty attempts and colors lists. That being said, doing so, will provide you the optimal opening word of any Wordle grid.
+Please note that the code will take a long time (potentially hours) to run on empty attempts and colors lists. That being said, doing so, will provide you the optimal opening word of any Wordle grid. Attached, you will find an XL file with the ranking of each potential wordle opening word (100% being the best ranking). 
 
 I would recommend you to run the code only after playing (and inputting) your opening word.
 
