@@ -2,8 +2,8 @@ from timeit import default_timer as timer
 from multiprocessing import Pool
 
 NB_CPUS = 16
-#ENGLISH_WORDS_FILE = r"word_list.txt"
-ENGLISH_WORDS_FILE = r"comprehensive_word_list.txt"
+ENGLISH_WORDS_FILE = r"word_list.txt"
+#ENGLISH_WORDS_FILE = r"comprehensive_word_list.txt"
 ENGLISH_WORDS_SET = [line.strip().lower() for line in open(ENGLISH_WORDS_FILE, 'r')]
 
 
