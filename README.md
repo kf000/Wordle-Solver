@@ -8,7 +8,7 @@ A Python script to find the next optimal word to play + all the potential soluti
 
 Download the .py and the two .txt files in a single directory.
 
-_You would need to import "multiprocessing" and "timeit" python packages to run the script._
+_You will have to import "multiprocessing" and "timeit" python packages to run the script._
 
 ## About the script
 
