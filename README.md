@@ -24,7 +24,7 @@ With word_list.txt computation will be faster, but results will be less accurate
 
 With comprehensive_word_list.txt results will be spotless, but the script will take longer to run.
 
-Appoximately 46 times longer as the complexity of the algorithm is n^3 (n being the number of english words considered).
+With comprehensive_word_list.txt the script will appoximately takes 46 times longer to run, as the complexity of the algorithm is n^3 (n being the number of english words considered).
 
 I would recommend you to start with word_list.txt, if results are not satisfactory, you can re-run the script with comprehensive_word_list.txt.
 
